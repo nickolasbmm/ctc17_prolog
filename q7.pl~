@@ -1,5 +1,0 @@
-ultimo([X],X).
-ultimo([_|T],W):-ultimo(T,W).
-
-palindromo([X]).
-palindromo([X|T]):-ultimo(T,W),X=W.
